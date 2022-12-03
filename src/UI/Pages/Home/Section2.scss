@@ -1,0 +1,98 @@
+@import '../../../App.scss';
+
+.Section2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  height: 27.6rem;
+
+  ::-webkit-scrollbar {
+    background: transparent;
+
+    &-thumb {
+      background: transparent;
+    }
+  }
+  .Carousel {
+    width: 100vw;
+    height: 27.6rem;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+
+    .Iconx {
+      height: 50%;
+      width: 50%;
+    }
+
+    .ScrollStart {
+      position: absolute;
+      width: 5.34em;
+      height: 27.6rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ScrollEnd {
+      position: absolute;
+      width: 5.4rem;
+      height: 27.6rem;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Tape {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .Item {
+        width: 15.4rem;
+        height: 19rem;
+        margin: 0 2.05rem;
+        border: solid 0.2rem rgba(0, 0, 0, 0.8);
+        border-radius: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          height: 10.2rem;
+          width: 10.2rem;
+          margin-top: 0.6rem;
+        }
+
+        .Info {
+          width: 90%;
+          height: 35%;
+          margin-top: 0.6rem;
+          background-color: rgba(0, 0, 0, 0.7);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          h5 {
+            font-size: 2.1rem;
+            font-weight: 400;
+            margin-top: 0.1rem;
+            margin-bottom: 0.3rem;
+          }
+
+          p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            width: 86%;
+          }
+        }
+      }
+    }
+  }
+}

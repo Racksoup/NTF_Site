@@ -1,0 +1,79 @@
+@import '../../../App.scss';
+
+.Section1 {
+  width: 100vw;
+  height: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 3.5rem;
+    font-size: 2.95rem;
+    text-decoration: underline;
+    color: $primary0;
+    text-shadow: 0 0.2rem 0.45rem rgba(0, 0, 0, 0.9);
+    font-weight: 400;
+  }
+
+  .Categories {
+    width: 71vw;
+    height: 36.1rem;
+    margin: 3.15rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .Item {
+      width: 25rem;
+      height: 15.4rem;
+      background-color: $tertiary3;
+      border-radius: 0.5rem;
+      display: flex;
+      justify-content: center;
+
+      &-1 {
+        justify-self: start;
+        align-self: start;
+      }
+      &-2 {
+        justify-self: center;
+        align-self: start;
+      }
+      &-3 {
+        justify-self: end;
+        align-self: start;
+      }
+      &-4 {
+        justify-self: start;
+        align-self: end;
+      }
+      &-5 {
+        justify-self: center;
+        align-self: end;
+      }
+      &-6 {
+        justify-self: end;
+        align-self: end;
+      }
+
+      img {
+        width: 24.4rem;
+        height: 14.8rem;
+        border-radius: 0.3rem;
+        object-fit: cover;
+        align-self: center;
+      }
+
+      h4 {
+        position: absolute;
+        color: $tertiary0;
+        text-decoration: underline;
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin-top: 1.9rem;
+        text-shadow: 0 0.2rem 0.45rem rgba(0, 0, 0, 0.9);
+      }
+    }
+  }
+}
