@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack server --hot --open --mode production",
+    "start": "webpack server --hot --open",
     "build": "webpack --config webpack.config.js --mode production"
   },
   "keywords": [],
