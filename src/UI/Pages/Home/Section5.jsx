@@ -1,8 +1,8 @@
 import React from 'react';
 import './Section5.scss';
-import Octopus from '../../../images/Octopus.svg';
-import Emu from '../../../images/Emu.svg';
-import Eagle from '../../../images/Eagle.svg';
+import Octopus from '../../../images/Octopus.png';
+import Emu from '../../../images/Emu.png';
+import Eagle from '../../../images/Eagle.png';
 import Cat from '../../../images/Cat.png';
 import Camel from '../../../images/Camel.png';
 
