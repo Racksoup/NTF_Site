@@ -1,46 +1,29 @@
 import React from 'react';
 import './Section0.scss';
-import HomeScreen from '../../../Assets/images/OrbitCyan.png';
 import Panda from '../../../Assets/images/Panda.png';
 
 const Section0 = () => {
   return (
     <div className='Section0'>
-      <img src={HomeScreen} alt='HomeScreen' className='background' />
-      <h1 className='Header'>
-        Panda NFT s
+      <div className='Header'>
+        <h1>Panda NFT s</h1>
         <img src={Panda} alt='Panda' className='HeaderIcon' />
-      </h1>
-
-      <div className='HeaderBtns'>
-        <img src={Panda} alt='Panda' className='Icon' />
-        <div className='Btns'>
-          <button className='Btn'>
-            <p className='Text'>Sign-up</p>
-          </button>
-          <p className='SignIn'>Sign-in</p>
-        </div>
+        <h3>Home to millions of the worlds best NFT's</h3>
       </div>
 
-      <div className='Right'>
-        <div className='Perks'>
-          <div className='Item'>
-            <p className='Text'>Daily Point Prizes</p>
-          </div>
-          <div className='Divider Divider-1'></div>
-          <div className='Item'>
-            <p className='Text'>Weekly Giveaways</p>
-          </div>
-          <div className='Divider Divider-2'></div>
-          <div className='Item'>
-            <p className='Text'>$50 Sign-up Bonus</p>
-          </div>
+      <div className='Bottom'>
+        <div className='VLine'></div>
+        <div className='Bottom-Content'>
+          <p>Daily Point Prizes</p>
+          <div className='HLine'></div>
+          <p>Weekly Giveaways</p>
+          <div className='HLine'></div>
+          <p>$50 Sign-up Bonus</p>
         </div>
-
-        <button className='BuyBtn'>BUY NFT'S</button>
-
-        <p className='FlavorText'>Home to millions of the worlds best NFTs</p>
+        <div className='VLine'></div>
       </div>
+      <button className='BuyBtn'>BUY NFT'S</button>
+      <button className='LoginBtn'>LOGIN</button>
     </div>
   );
 };
