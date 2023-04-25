@@ -1,7 +1,7 @@
 import React from 'react';
 import './Section0.scss';
-import HomeScreen from '../../../images/HomeScreen.png';
-import Panda from '../../../images/Panda.png';
+import HomeScreen from '../../../Assets/images/OrbitCyan.png';
+import Panda from '../../../Assets/images/Panda.png';
 
 const Section0 = () => {
   return (
@@ -37,11 +37,7 @@ const Section0 = () => {
           </div>
         </div>
 
-        <button className='BuyBtn'>
-          <div className='Inner'>
-            <p className='Text'>Buy NFTs</p>
-          </div>
-        </button>
+        <button className='BuyBtn'>BUY NFT'S</button>
 
         <p className='FlavorText'>Home to millions of the worlds best NFTs</p>
       </div>

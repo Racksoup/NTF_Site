@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.scss';
-import Panda from '../../../images/Panda.png';
+import Panda from '../../../Assets/images/Panda.png';
 
 import { Link } from 'react-router-dom';
 

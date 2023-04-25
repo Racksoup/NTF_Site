@@ -42,7 +42,7 @@ body {
 }
 
 * {
-  font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Kanit';
   cursor: default;
   margin: 0;
   padding: 0;
@@ -124,4 +124,77 @@ a {
     width: 100%;
     padding: 0 1rem;
   }
+}
+
+@font-face {
+  font-family: 'Kanit-100';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Thin.ttf');
+}
+@font-face {
+  font-family: 'Kanit-200';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'Kanit-300';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Light.ttf');
+}
+@font-face {
+  font-family: 'Kanit-400';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Regular.ttf');
+}
+@font-face {
+  font-family: 'Kanit-500';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Medium.ttf');
+}
+@font-face {
+  font-family: 'Kanit-600';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'Kanit-700';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Bold.ttf');
+}
+@font-face {
+  font-family: 'Kanit-800';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'Kanit-900';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Black.ttf');
+}
+@font-face {
+  font-family: 'Kanit-100-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-ThinItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-200-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-ExtraLightItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-300-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-LightItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-400-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-Italic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-500-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-600-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-SemiBoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-700-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-800-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-ExtraBoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Kanit-900-Italic';
+  src: url('~/src/Assets/Fonts/Kanit/Kanit-BlackItalic.ttf');
 }

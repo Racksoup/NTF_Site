@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Home.scss';
-import Section0 from './Section0';
-import Section1 from './Section1';
-import Section2 from './Section2';
-import Section3 from './Section3';
-import Section4 from './Section4';
-import Section5 from './Section5';
+import Section0 from './Section0.jsx';
+import Section1 from './Section1.jsx';
+import Section2 from './Section2.jsx';
+import Section3 from './Section3.jsx';
+import Section4 from './Section4.jsx';
+import Section5 from './Section5.jsx';
 import Footer from '../../Components/Footer/Footer.jsx';
 import Navbar from '../../Components/Navbar/Navbar.jsx';
 

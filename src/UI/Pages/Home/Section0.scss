@@ -15,10 +15,10 @@
   }
 
   .Header {
-    color: $primary0;
+    color: black;
     margin: 7.5vh auto 0 auto;
     font-size: 6.25rem;
-    text-shadow: white 0 0 0.15rem;
+    text-transform: uppercase;
   }
 
   .HeaderIcon {
@@ -124,34 +124,18 @@
 
     .BuyBtn {
       margin: 10.8vh 0;
-      @media (max-height: 900px) {
-        margin: 5vh 0;
-      }
-      height: 14.5rem;
-      width: 35rem;
-      background-color: $tertiary0;
-      border-radius: 0.55rem;
+      height: 3.5rem;
+      width: 15rem;
+      background-color: rgb(255, 214, 126);
+      border-radius: 0.2rem;
       display: flex;
       align-items: center;
       justify-content: center;
-
-      .Inner {
-        top: -5rem;
-        left: -5rem;
-        background-color: $tertiary4;
-        height: 12.6rem;
-        width: 33.1rem;
-        border-radius: 0.55rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .Text {
-        font-size: 6rem;
-        color: $tertiary0;
-        font-weight: 700;
-      }
+      // border: solid 3px rgb(107, 73, 0);
+      box-shadow: 0 0 5px 0 black;
+      font-size: 2rem;
+      font-family: 'Kanit-600';
+      color: rgb(0, 0, 0);
     }
 
     .FlavorText {

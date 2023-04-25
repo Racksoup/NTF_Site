@@ -1,6 +1,6 @@
 import React from 'react';
 import './Section3.scss';
-import IcecreamCone from '../../../images/IcecreamCone.png';
+import IcecreamCone from '../../../Assets/images/IcecreamCone.png';
 
 const Section3 = () => {
   const Item = () => {

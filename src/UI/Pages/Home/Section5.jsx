@@ -1,10 +1,10 @@
 import React from 'react';
 import './Section5.scss';
-import Octopus from '../../../images/Octopus.png';
-import Emu from '../../../images/Emu.png';
-import Eagle from '../../../images/Eagle.png';
-import Cat from '../../../images/Cat.png';
-import Camel from '../../../images/Camel.png';
+import Octopus from '../../../Assets/images/Octopus.png';
+import Emu from '../../../Assets/images/Emu.png';
+import Eagle from '../../../Assets/images/Eagle.png';
+import Cat from '../../../Assets/images/Cat.png';
+import Camel from '../../../Assets/images/Camel.png';
 
 const Section5 = () => {
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
 import './Section1.scss';
-import Basketball from '../../../images/Basketball.png';
-import Gaming from '../../../images/Gaming.jpg';
-import StockChart from '../../../images/StockChart.png';
-import ColorMan from '../../../images/ColorMan.jpg';
-import ArtSpiral from '../../../images/ArtSpiral.jpg';
-import BTC from '../../../images/BTC.png';
+import Basketball from '../../../Assets/images/Basketball.png';
+import Gaming from '../../../Assets/images/Gaming.jpg';
+import StockChart from '../../../Assets/images/StockChart.png';
+import ColorMan from '../../../Assets/images/ColorMan.jpg';
+import ArtSpiral from '../../../Assets/images/ArtSpiral.jpg';
+import BTC from '../../../Assets/images/BTC.png';
 
 const Section1 = () => {
   return (
