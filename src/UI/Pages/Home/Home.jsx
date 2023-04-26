@@ -3,6 +3,7 @@ import './Home.scss';
 import Cover from './Cover.jsx';
 import Sales from './Sales.jsx';
 import Categories from './Categories.jsx';
+import Info from './Info.jsx';
 import Navbar from '../../Components/Navbar/Navbar.jsx';
 import Footer from '../../Components/Footer/Footer.jsx';
 
@@ -32,6 +33,7 @@ const Home = () => {
       <Cover />
       <Categories />
       <Sales />
+      <Info />
       <Footer />
     </div>
   );
