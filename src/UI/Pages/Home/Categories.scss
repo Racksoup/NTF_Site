@@ -7,8 +7,16 @@
   flex-direction: column;
   align-items: center;
 
+  .Curve {
+    position: absolute;
+
+    @media (max-width: 1485px) {
+      visibility: hidden;
+    }
+  }
+
   .Content {
-    margin-top: 7rem;
+    margin-top: 10rem;
     width: 100%;
     max-width: 1700px;
     padding: 0 50px;

@@ -5,10 +5,12 @@ import Basketball from '../../../Assets/images/Basketball.png';
 import ColorMan from '../../../Assets/images/ColorMan.jpg';
 import Gaming from '../../../Assets/images/Gaming.jpg';
 import StockChart from '../../../Assets/images/StockChart.png';
+import Vector1 from '../../../Assets/images/Vector1.png';
 
 const Categories = () => {
   return (
     <div className='Categories'>
+      <img src={Vector1} alt='Curve' className='Curve' />
       <div className='Content'>
         <h3>BROWSE</h3>
         <h2>NFT'S</h2>
