@@ -1,0 +1,100 @@
+@import '../../../App.scss';
+
+.Categories {
+  width: 100%;
+  background-color: rgb(185, 225, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Content {
+    margin-top: 7rem;
+    width: 100%;
+    max-width: 1700px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      color: black;
+      font-size: 5rem;
+      line-height: 5rem;
+      font-family: 'Inter-800';
+
+      @media (max-width: 605px) {
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+    }
+
+    h2 {
+      margin-top: -0.4rem;
+      font-family: 'Inter-800';
+      color: rgb(185, 126, 0);
+      font-size: 11rem;
+      line-height: 10rem;
+      @media (max-width: 605px) {
+        font-size: 6rem;
+        line-height: 5.5rem;
+      }
+    }
+
+    &-Items {
+      margin: 7.5rem 0 7.5rem -0.4rem;
+      width: 101%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      @media (max-width: 702px) {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .Item {
+        margin: 1rem 0.7rem;
+        height: 22rem;
+        width: 15%;
+        min-width: 11rem;
+        border: solid 3px rgb(69, 66, 56);
+        border-radius: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        background-size: cover;
+
+        @media (max-width: 1300px) {
+          height: 15rem;
+        }
+
+        @media (max-width: 1083px) {
+          min-width: 17rem;
+          margin: 2rem 1rem;
+        }
+
+        h4 {
+          margin-top: 1.4rem;
+          font-size: 2.1rem;
+          color: white;
+          -webkit-text-stroke-width: 1.2px;
+          -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+          text-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+          font-family: 'Inter-800';
+          text-transform: uppercase;
+
+          @media (max-width: 1580px) {
+            font-size: 1.75rem;
+          }
+          @media (max-width: 1300px) {
+            font-size: 1.6rem;
+          }
+
+          @media (max-width: 1083px) {
+            font-size: 2.1rem;
+          }
+        }
+      }
+    }
+  }
+}

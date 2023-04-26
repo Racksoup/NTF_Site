@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import Home from './UI/Pages/Home/Home.jsx';
-import Categories from './UI/Pages/Categories/Categories.jsx';
 
 import { Route, Routes } from 'react-router-dom';
 
@@ -12,7 +11,6 @@ const App = () => {
       <div className='App-Content'>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          <Route exact path='/Categories' element={<Categories />} />
         </Routes>
       </div>
     </div>

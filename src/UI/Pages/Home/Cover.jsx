@@ -1,10 +1,10 @@
 import React from 'react';
-import './Section0.scss';
+import './Cover.scss';
 import Panda from '../../../Assets/images/Panda.png';
 
-const Section0 = () => {
+const Cover = () => {
   return (
-    <div className='Section0'>
+    <div className='Cover'>
       <div className='Header'>
         <h1>Panda NFT s</h1>
         <img src={Panda} alt='Panda' className='HeaderIcon' />
@@ -28,4 +28,4 @@ const Section0 = () => {
   );
 };
 
-export default Section0;
+export default Cover;

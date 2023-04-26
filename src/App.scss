@@ -35,9 +35,8 @@ body {
   width: 0.5rem;
 
   &-thumb {
-    background: $primary3;
-    border-radius: 0.4rem;
-    height: 20px;
+    background: rgb(0, 18, 27);
+    border-radius: 0.1rem;
   }
 }
 
@@ -126,6 +125,8 @@ a {
   }
 }
 
+// Fonts
+// Kanit
 @font-face {
   font-family: 'Kanit-100';
   src: url('~/src/Assets/Fonts/Kanit/Kanit-Thin.ttf');
@@ -197,4 +198,41 @@ a {
 @font-face {
   font-family: 'Kanit-900-Italic';
   src: url('~/src/Assets/Fonts/Kanit/Kanit-BlackItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-100';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Thin.woff');
+}
+@font-face {
+  font-family: 'Inter-200';
+  src: url('~/src/Assets/Fonts/Inter/Inter-ExtraLight.woff');
+}
+@font-face {
+  font-family: 'Inter-300';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Light.woff');
+}
+@font-face {
+  font-family: 'Inter-400';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Regular.woff');
+}
+@font-face {
+  font-family: 'Inter-500';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Medium.woff');
+}
+@font-face {
+  font-family: 'Inter-600';
+  src: url('~/src/Assets/Fonts/Inter/Inter-SemiBold.woff');
+}
+@font-face {
+  font-family: 'Inter-700';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Bold.woff');
+}
+@font-face {
+  font-family: 'Inter-800';
+  src: url('~/src/Assets/Fonts/Inter/Inter-ExtraBold.woff');
+}
+@font-face {
+  font-family: 'Inter-900';
+  src: url('~/src/Assets/Fonts/Inter/Inter-Black.woff');
 }
