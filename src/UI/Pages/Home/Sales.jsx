@@ -16,7 +16,7 @@ const Sales = () => {
             <Item />
           </div>
         </div>
-        <div className='Box' style={{ marginTop: '19rem' }}>
+        <div className='Box' style={{ marginTop: '17rem' }}>
           <h3>Largest Sales</h3>
           <div className='Inner'>
             <Item />
