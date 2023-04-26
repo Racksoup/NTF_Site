@@ -1,0 +1,35 @@
+@import '../../../App.scss';
+
+.Artists {
+  width: 100%;
+  background-color: rgb(185, 225, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .Content {
+    margin: 0 0 8rem 0;
+    width: 100%;
+    max-width: 1700px;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+
+    .BrowseBtn {
+      margin-top: 6rem;
+      height: 3.5rem;
+      width: 14rem;
+      background-color: rgb(255, 214, 126);
+      border-radius: 0.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // border: solid 3px rgb(107, 73, 0);
+      box-shadow: 0 0 5px 0 black;
+      font-size: 1.8rem;
+      font-family: 'Kanit-600';
+      color: rgb(0, 0, 0);
+      text-transform: uppercase;
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Cover from './Cover.jsx';
 import Sales from './Sales.jsx';
 import Categories from './Categories.jsx';
 import Info from './Info.jsx';
+import Artists from './Artists.jsx';
 import Navbar from '../../Components/Navbar/Navbar.jsx';
 import Footer from '../../Components/Footer/Footer.jsx';
 
@@ -34,6 +35,7 @@ const Home = () => {
       <Categories />
       <Sales />
       <Info />
+      <Artists />
       <Footer />
     </div>
   );

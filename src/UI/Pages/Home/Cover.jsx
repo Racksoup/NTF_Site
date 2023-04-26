@@ -22,8 +22,10 @@ const Cover = () => {
         </div>
         <div className='VLine'></div>
       </div>
-      <button className='BuyBtn'>BUY NFT'S</button>
-      <button className='LoginBtn'>LOGIN</button>
+      <div className='CallToAction'>
+        <button className='BuyBtn'>BUY NFT'S</button>
+        <button className='LoginBtn'>LOGIN</button>
+      </div>
     </div>
   );
 };
