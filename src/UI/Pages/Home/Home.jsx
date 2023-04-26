@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Home.scss';
 import Cover from './Cover.jsx';
-import Footer from '../../Components/Footer/Footer.jsx';
-import Navbar from '../../Components/Navbar/Navbar.jsx';
+import Sales from './Sales.jsx';
 import Categories from './Categories.jsx';
+import Navbar from '../../Components/Navbar/Navbar.jsx';
+import Footer from '../../Components/Footer/Footer.jsx';
 
 const Home = () => {
   const [nav, toggleNav] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
       {/* {nav ? <Navbar /> : null} */}
       <Cover />
       <Categories />
+      <Sales />
       <Footer />
     </div>
   );
