@@ -2,7 +2,7 @@
 
 .Info {
   width: 100%;
-  background-color: rgb(185, 225, 248);
+  background-color: $darkBlue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@
     h4 {
       font-size: 3rem;
       font-family: 'Inter-400';
-      color: black;
+      color: white;
     }
 
     p {
@@ -26,7 +26,7 @@
       font-size: 1.2rem;
       line-height: 1.9rem;
       font-family: 'Inter-400';
-      color: black;
+      color: white;
     }
   }
 }

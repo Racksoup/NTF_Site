@@ -2,7 +2,7 @@
 
 .Sales {
   width: 100%;
-  background-color: rgb(185, 225, 248);
+  background-color: $lightBlue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,7 +72,7 @@
     margin: 0 0.5rem;
     width: 20rem;
     height: 21.8rem;
-    background-color: rgb(255, 244, 219);
+    background-color: $lightOrange;
     border-radius: 0.7rem;
     display: flex;
     flex-direction: column;
