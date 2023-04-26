@@ -66,9 +66,11 @@
         flex-direction: column;
         align-items: center;
       }
-
       @media (max-width: 680px) {
         margin-top: 2rem;
+      }
+      @media (max-width: 580px) {
+        align-items: start;
       }
 
       .Item {
@@ -81,11 +83,25 @@
         flex-direction: column;
         align-items: center;
 
+        @media (max-width: 590px) {
+          width: 100%;
+          height: auto;
+          padding-bottom: 1rem;
+        }
+
         img {
           margin-top: 2.2rem;
           width: 84%;
           height: 17rem;
           border-radius: 0.5rem;
+
+          @media (max-width: 590px) {
+            height: 14rem;
+          }
+          @media (max-width: 420px) {
+            height: 10rem;
+            margin-top: 1rem;
+          }
         }
 
         h5 {
