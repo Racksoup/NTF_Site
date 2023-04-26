@@ -8,6 +8,8 @@
   align-items: center;
   background-image: url('~/src/Assets/images/OrbitCyan.png');
   background-position: bottom;
+  background-repeat: no-repeat;
+  background-color: $lightBlue;
 
   @media (max-width: 735px) {
     background-position: top;

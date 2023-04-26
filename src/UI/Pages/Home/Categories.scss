@@ -9,6 +9,7 @@
 
   .Curve {
     position: absolute;
+    width: 100vw;
 
     @media (max-width: 1485px) {
       visibility: hidden;
@@ -16,12 +17,25 @@
   }
 
   .Content {
-    margin-top: 10rem;
+    margin-top: 14rem;
     width: 100%;
     max-width: 1700px;
     padding: 0 50px;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 1980px) {
+      margin-top: 15rem;
+    }
+    @media (min-width: 2500px) {
+      margin-top: 20rem;
+    }
+    @media (min-width: 3000px) {
+      margin-top: 38rem;
+    }
+    @media (min-width: 4900px) {
+      margin-top: 60rem;
+    }
 
     h3 {
       color: black;
@@ -64,8 +78,8 @@
         height: 22rem;
         width: 15%;
         min-width: 11rem;
-        border: solid 3px rgb(69, 66, 56);
-        border-radius: 1.3rem;
+        border: solid 3px $darkOrange;
+        border-radius: 0.8rem;
         display: flex;
         flex-direction: column;
         align-items: center;
