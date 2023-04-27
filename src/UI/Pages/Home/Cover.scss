@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-color: $lightBlue;
 
-  @media (max-width: 735px) {
+  @media (max-width: 635px) {
     background-position: top;
     height: 700px;
   }
@@ -26,7 +26,7 @@
     @media (max-width: 885px) {
       scale: 100%;
     }
-    @media (max-width: 735px) {
+    @media (max-width: 635px) {
       margin-top: 10rem;
     }
 

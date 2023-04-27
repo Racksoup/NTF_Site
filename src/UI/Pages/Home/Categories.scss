@@ -24,8 +24,8 @@
     display: flex;
     flex-direction: column;
 
-    @media (max-width: 702px) {
-      margin-top: 6rem;
+    @media (max-width: 900px) {
+      margin-top: 7rem;
     }
     @media (min-width: 1980px) {
       margin-top: 15rem;

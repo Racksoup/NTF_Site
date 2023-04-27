@@ -16,11 +16,12 @@
     display: flex;
     flex-direction: column;
 
-    @media (max-width: 702px) {
-      margin-bottom: 16rem;
+    @media (max-width: 750px) {
+      margin-bottom: 14rem;
     }
 
     .Box {
+      margin-top: 10rem;
       position: relative;
       width: 94%;
       height: 26rem;
@@ -32,6 +33,7 @@
 
       @media (max-width: 950px) {
         height: 25rem;
+        margin-top: 5rem;
       }
     }
 

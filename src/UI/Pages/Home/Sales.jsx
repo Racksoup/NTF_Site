@@ -6,7 +6,7 @@ const Sales = () => {
   return (
     <div className='Sales'>
       <div className='Content'>
-        <div className='Box' style={{ marginTop: '10rem' }}>
+        <div className='Box'>
           <h3>Recent Transactions</h3>
           <div className='Inner'>
             <Item />
