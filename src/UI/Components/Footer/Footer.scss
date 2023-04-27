@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
 
-  @media (max-width: $lowerBreak) {
+  @media (max-width: 768px) {
     padding: 1.5rem 0;
   }
 
@@ -87,7 +87,11 @@
           background-color: white;
         }
 
-        .Btn {
+        button {
+          border-radius: 0.3rem;
+          background-color: $lightOrange;
+          color: black;
+          width: 6rem;
           height: 1.8rem;
         }
       }
