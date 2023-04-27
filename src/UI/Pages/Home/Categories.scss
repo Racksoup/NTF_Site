@@ -24,6 +24,9 @@
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 702px) {
+      margin-top: 6rem;
+    }
     @media (min-width: 1980px) {
       margin-top: 15rem;
     }
@@ -71,6 +74,7 @@
       @media (max-width: 702px) {
         width: 100%;
         justify-content: center;
+        margin: 3.5rem 0 1rem -0.4rem;
       }
 
       .Item {

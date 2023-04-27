@@ -35,9 +35,10 @@
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      padding-bottom: 2rem;
 
       .Item {
-        margin: 1rem 0.2rem;
+        margin: 2rem 0.2rem 0 0.2rem;
         width: 11.6rem;
         height: 11.6rem;
         display: flex;

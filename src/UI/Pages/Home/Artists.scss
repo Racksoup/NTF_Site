@@ -15,6 +15,11 @@
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 702px) {
+      margin-top: 7rem;
+      margin-bottom: 4rem;
+    }
+
     .TopLine {
       width: 100%;
       display: flex;
